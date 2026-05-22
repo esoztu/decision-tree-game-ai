@@ -1,23 +1,26 @@
-# Adaptive Game-Playing AI
+# Decision Tree Game AI
 
-Adaptive Tic-Tac-Toe AI system implemented in Haskell using decision-tree based learning approaches.
+Adaptive game-playing AI system implemented in Haskell using decision-tree learning and concurrent programming.
 
 ## Overview
 
-This project explores game-playing AI through decision-tree evaluation and adaptive move selection.
+This project explores AI decision-making through an adaptive Tic-Tac-Toe system capable of learning from previous games.
 
-The system supports human vs AI gameplay and investigates how rule-based learning approaches can improve decision-making across repeated games.
+The AI evaluates possible moves using decision trees trained on historical gameplay data and updates its training data iteratively after each completed game.
 
 ## Features
 
 - Human vs AI gameplay
 - Decision-tree based move evaluation
-- Adaptive game-state analysis
-- Functional programming implementation
+- Adaptive learning from previous games
+- Concurrent game server architecture
+- Game-state probability inference
+- Tournament-style gameplay
 
 ## Technologies
 
 - Haskell
 - Functional Programming
 - Decision Trees
+- Concurrent Programming
 - Game AI
